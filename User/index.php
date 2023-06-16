@@ -26,6 +26,9 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="lokasi.html">Lokasi</a>
                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="item.php">Item</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="about.html">About</a>
                     </li>
