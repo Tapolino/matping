@@ -60,18 +60,123 @@ session_start();
     </nav>
     <!-- END NAVBAR -->
     <!-- MAIN -->
-    <div class="container-sm">
-        <div class="container text-center">
-            <div class="row align-items-start">
+        <div class="container-sm">
+        <div class="container text-left">
+            <div class="row">
                 <div class="col">
-                    Item list
+                    <h2 class="fw-bolder mb-4">Item List</h2>
+                    <div class="col mb-5">
+                        <div class="card" style="width: 400px;">
+                            <img src="assets/batu.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Batu Bata</h5>
+                                <p class="card-text">Jumlah Barang : 250</p>
+                                <p class="card-text">Lokasi Barang : Area Kiri</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card" style="width: 400px;">
+                            <img src="assets/seng.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Seng</h5>
+                                <p class="card-text">Jumlah Barang : 50</p>
+                                <p class="card-text">Lokasi Barang : Area Belakang</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card" style="width: 400px;">
+                            <img src="assets/keramik.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Keramik</h5>
+                                <p class="card-text">Jumlah Barang : 200</p>
+                                <p class="card-text">Lokasi Barang : Area Kiri</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card" style="width: 400px;">
+                            <img src="assets/genteng.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Genteng</h5>
+                                <p class="card-text">Jumlah Barang : 60</p>
+                                <p class="card-text">Lokasi Barang : Area Belakang</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card" style="width: 400px;">
+                            <img src="assets/pintu.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Pintu Kamar Mandi</h5>
+                                <p class="card-text">Jumlah Barang : 10</p>
+                                <p class="card-text">Lokasi Barang : Area Kanan</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col">
-                    Details
+                    <h2 class="fw-bolder mb-4"></h2>
+                    <div class="col mb-5">
+                        <div class="card" style="width: 400px;">
+                            <img src="assets/galvalum.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Galvalum</h5>
+                                <p class="card-text">Jumlah Barang : 40</p>
+                                <p class="card-text">Lokasi Barang : Area Belakang</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card" style="width: 400px;">
+                            <img src="assets/tandon.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Tandon</h5>
+                                <p class="card-text">Jumlah Barang : 10</p>
+                                <p class="card-text">Lokasi Barang : Area Kanan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card" style="width: 400px;">
+                            <img src="assets/bak.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Bak Cuci Piring</h5>
+                                <p class="card-text">Jumlah Barang : 35</p>
+                                <p class="card-text">Lokasi Barang : Area Kanan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card" style="width: 400px;">
+                            <img src="assets/bevel.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Bevel</h5>
+                                <p class="card-text">Jumlah Barang : 255</p>
+                                <p class="card-text">Lokasi Barang : Area Kiri</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card" style="width: 400px;">
+                            <img src="assets/sanitary.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Sanitary</h5>
+                                <p class="card-text">Jumlah Barang : 10</p>
+                                <p class="card-text">Lokasi Barang : Area Tengah</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+     <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: #DAA520;">
+    © Toko Bangunan Oke Tenan!!!
+    <a class="text-reset fw-bold">MATPING</a>
+  </div>
     <!-- END MAIN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
