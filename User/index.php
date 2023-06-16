@@ -25,20 +25,7 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Admin Menu
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Add Area</a></li>
-                            <li><a class="dropdown-item" href="tambahbarang.php">Add Item</a></li>
-                            <li><a class="dropdown-item" href="tampilbarang.php">Manage Item</a></li>
-                            <li><a class="dropdown-item" href="#">Manage Area</a></li>
-                            <li><a class="dropdown-item" href="#">Delete Area</a></li>
-                            <li><a class="dropdown-item" href="#">Delete Item</a></li>
-                        </ul>
-                    </li>
+                   
                 </ul>
                 <form class="d-flex" role="search">
                     <button class="btn btn-outline-danger me-2" type="submit">Filter</button>
