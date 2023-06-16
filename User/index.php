@@ -24,7 +24,13 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="">Lokasi</a>
+                        <a class="nav-link active" aria-current="page" href="itemlist.html">Item List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="lokasi.html">Lokasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
                     </li>
                 </ul>
                 <form class="d-flex column-gap-3" role="search">
