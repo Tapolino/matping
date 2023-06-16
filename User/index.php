@@ -7,7 +7,7 @@
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MATPING | Data Barang</title>
+    <title>MATPING | Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
@@ -25,15 +25,19 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="lokasi.php">Lokasi</a>
+                    </li>
                    
                 </ul>
                 <form class="d-flex" role="search">
                     <button class="btn btn-outline-danger me-2" type="submit">Filter</button>
                      
                 </form>
-                <form action="" method="POST">
-                    <input type="text" name="query" placeholder="Cari"/>
-                    <input type="submit" name="cari" values="Search"/>
+                <form class="d-flex gap-3" action="" method="POST">
+                    <input class="form-control me-2 " type="text" name="query" placeholder="Cari"/>
+                    <!-- <input type="submit" name="cari" values="Search"/> -->
+                    <button class="btn btn-outline-danger " type="submit" name="cari ">Search</button>
                     <button class="btn bg-danger text-light" type="submit "><a class="nav-link" href="../Account/login.php">Login</a></button>
                 </form>
             </div>
